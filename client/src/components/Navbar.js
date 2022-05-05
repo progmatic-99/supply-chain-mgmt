@@ -173,31 +173,7 @@ export default function PersistentDrawerLeft({ pageTitle,navItems, children }) {
             <> </>
           )}
         </List>
-        <div
-          style={{ height: "100%", display: "flex", alignItems: "flex-end" }}
-        >
-          <div
-            style={{
-              width: "100%",
-              height: "70px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              fontWeight: 500,
-              fontSize: 17,
-              borderTop: "1px solid #44a",
-            }}
-          >
-            By Team Akatsuki &nbsp;&nbsp;
-            <a
-              style={{ textDecoration: "none" }}
-              href="https://github.com/rishav4101/eth-supplychain-dapp"
-            >
-              <GitHubIcon style={{ color: "#fff" }} />
-            </a>
-          </div>
-        </div>
-      </Drawer>
+      </Drawer
       <main
         className={clsx(classes.content, {
           [classes.contentShift]: open,
