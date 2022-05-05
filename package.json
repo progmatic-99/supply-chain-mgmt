@@ -2,7 +2,10 @@
     "name": "eth-supplychain-dapp",
     "version": "0.1.0",
     "dependencies": {
+        "@truffle/hdwallet-provider": "^2.0.8",
+        "dotenv": "^16.0.0",
         "solc": "^0.8.4",
-        "truffle": "^5.3.7"
+        "truffle": "^5.3.7",
+        "truffle-plugin-verify": "^0.5.25"
     }
 }
